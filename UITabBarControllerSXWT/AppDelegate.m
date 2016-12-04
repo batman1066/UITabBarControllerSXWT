@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //创建程序窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];//利用设备内部屏幕的bounds来创建window
+    //创建UITabBarController
+    TabBarController *myTabBarController1 = [[TabBarController alloc] init];
+    //设置窗口的根控制器
+    self.window.rootViewController = myTabBarController1;
+    //设置window为主窗口并显示
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

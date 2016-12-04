@@ -15,6 +15,10 @@
 		8CE29CE61DF409AC00113227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CE29CE41DF409AC00113227 /* LaunchScreen.storyboard */; };
 		8CE29CF11DF409AC00113227 /* UITabBarControllerSXWTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29CF01DF409AC00113227 /* UITabBarControllerSXWTTests.m */; };
 		8CE29CFC1DF409AC00113227 /* UITabBarControllerSXWTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29CFB1DF409AC00113227 /* UITabBarControllerSXWTUITests.m */; };
+		8CE29D0B1DF409E000113227 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29D0A1DF409E000113227 /* TabBarController.m */; };
+		8CE29D0E1DF40A2900113227 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29D0D1DF40A2900113227 /* FirstViewController.m */; };
+		8CE29D111DF40A4800113227 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29D101DF40A4800113227 /* SecondViewController.m */; };
+		8CE29D141DF40A6200113227 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CE29D131DF40A6200113227 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		8CE29CF71DF409AC00113227 /* UITabBarControllerSXWTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarControllerSXWTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CE29CFB1DF409AC00113227 /* UITabBarControllerSXWTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarControllerSXWTUITests.m; sourceTree = "<group>"; };
 		8CE29CFD1DF409AC00113227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CE29D091DF409E000113227 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabBarController.h; path = ../TabBarController.h; sourceTree = "<group>"; };
+		8CE29D0A1DF409E000113227 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabBarController.m; path = ../TabBarController.m; sourceTree = "<group>"; };
+		8CE29D0C1DF40A2900113227 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8CE29D0D1DF40A2900113227 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8CE29D0F1DF40A4800113227 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8CE29D101DF40A4800113227 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8CE29D121DF40A6200113227 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdViewController.h; path = ../ThirdViewController.h; sourceTree = "<group>"; };
+		8CE29D131DF40A6200113227 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdViewController.m; path = ../ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,8 @@
 			children = (
 				8CE29CD91DF409AC00113227 /* AppDelegate.h */,
 				8CE29CDA1DF409AC00113227 /* AppDelegate.m */,
+				8CE29D091DF409E000113227 /* TabBarController.h */,
+				8CE29D0A1DF409E000113227 /* TabBarController.m */,
 				8CE29CDC1DF409AC00113227 /* ViewController.h */,
 				8CE29CDD1DF409AC00113227 /* ViewController.m */,
 				8CE29CDF1DF409AC00113227 /* Main.storyboard */,
@@ -110,6 +124,12 @@
 				8CE29CE41DF409AC00113227 /* LaunchScreen.storyboard */,
 				8CE29CE71DF409AC00113227 /* Info.plist */,
 				8CE29CD61DF409AC00113227 /* Supporting Files */,
+				8CE29D0C1DF40A2900113227 /* FirstViewController.h */,
+				8CE29D0D1DF40A2900113227 /* FirstViewController.m */,
+				8CE29D0F1DF40A4800113227 /* SecondViewController.h */,
+				8CE29D101DF40A4800113227 /* SecondViewController.m */,
+				8CE29D121DF40A6200113227 /* ThirdViewController.h */,
+				8CE29D131DF40A6200113227 /* ThirdViewController.m */,
 			);
 			path = UITabBarControllerSXWT;
 			sourceTree = "<group>";
@@ -276,9 +296,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CE29D111DF40A4800113227 /* SecondViewController.m in Sources */,
 				8CE29CDE1DF409AC00113227 /* ViewController.m in Sources */,
+				8CE29D0B1DF409E000113227 /* TabBarController.m in Sources */,
+				8CE29D0E1DF40A2900113227 /* FirstViewController.m in Sources */,
 				8CE29CDB1DF409AC00113227 /* AppDelegate.m in Sources */,
 				8CE29CD81DF409AC00113227 /* main.m in Sources */,
+				8CE29D141DF40A6200113227 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
